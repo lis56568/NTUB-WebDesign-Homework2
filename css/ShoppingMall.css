@@ -1,0 +1,242 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.header{
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.shop-icon{
+    float: left;
+}
+
+.header .main-menu{
+    float: left;
+}
+
+.select{
+    margin-top: 35px;
+}
+
+.select li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.user-icon{
+    float: right;
+    margin: 25px 40px 25px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon img{
+    margin-right: 10px;
+}
+
+.user-icon span{
+    color: white;
+}
+.user-icon span:hover{
+    color: rgb(198, 146, 246);
+    cursor: pointer;
+}
+
+.prodsList{
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 150px;
+    height: 600px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.prodsList ul{
+    position: relative;
+    right: 20px;
+}
+
+.list li{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.list li:first-child{
+    margin-top: 10px;
+}
+
+.list li:nth-child(1):hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.list li:nth-child(2):hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list li:nth-child(3):hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list li:nth-child(4    ):hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.select li:hover{
+    color: rgb(198, 146, 246);
+    cursor: pointer;
+}
+
+.searchBar{
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+input{
+    display: inline-block;
+    width: 500px;
+    height: 30px;
+}
+
+.search-icon{
+    float: left;
+}
+.article{
+    display: inline-block;
+    width: 70%;
+    height: 700px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.iframe-video{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+}
+
+.buyArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 177, 177);
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.adArea{
+    float: right;
+    margin-right: 50px;
+}
+
+.ADs li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+
+.footer{
+    margin-top: 0px;
+    clear: both;
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.pay{
+    display: inline-block;
+}
+.pay > img{
+    margin: 20px 10px 10px 20px;
+}
+
+.services{
+    display: inline-block;
+    position: relative;
+    bottom: 72px;
+    left: 90px;
+}
+
+.service-1 li{
+    color: white;
+}
+
+.service-1 li:hover{
+    color: rgb(198, 146, 246);
+    cursor: pointer;
+}
+
+.services2{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 95px;
+}
+
+.service-2 li{
+    color: white;
+}
+
+.service-2 li:hover{
+    color: rgb(198, 146, 246);
+    cursor: pointer;
+}
+
+
+.services3{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 95px;
+}
+
+.service-3 li{
+    color: white;
+}
+
+.service-3 li:hover{
+    color: rgb(198, 146, 246);
+    cursor: pointer;
+}
+
+.contact-us{
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    bottom: 95px;
+}
+
+.copyright{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
